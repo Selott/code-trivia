@@ -15,11 +15,15 @@ public class Codetrivia {
 
     public static void main(String[] args) {
 
+
+        //TODO: find different solution for this
         trivia.add(new ThreeAndFive());
         trivia.add(new EvenFibonacci());
         trivia.add(new LargestPrimeFactor());
         trivia.add(new LargestPalindrome());
         //TODO: make async -> trivia.add(new SmallestMultiple());
+        trivia.add(new SumSquareDifference());
+        trivia.add(new BigPrime());
 
         trivia.forEach(Problem::displaySolution);
 
